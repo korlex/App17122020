@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/additional_nav_graph"
+    app:startDestination="@id/additionalFragment">
+
+    <fragment
+        android:id="@+id/additionalFragment"
+        android:name="com.example.app17122020.screen.AdditionalFragment"
+        android:label="fragment_additional"
+        tools:layout="@layout/fragment_additional" />
+</navigation>
