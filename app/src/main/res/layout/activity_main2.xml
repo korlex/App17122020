@@ -82,5 +82,9 @@
 
     </androidx.drawerlayout.widget.DrawerLayout>
 
+    <include
+        android:id="@+id/layoutReconnectionOverlay"
+        layout="@layout/layout_reconnection_overlay"
+        android:visibility="gone" />
 
 </FrameLayout>
